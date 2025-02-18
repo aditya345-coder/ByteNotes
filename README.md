@@ -13,11 +13,11 @@ _Add a link or GIF showing the demo of your application._
 |   .gitignore
 |   LICENSE
 |   README.md
-|   requirements.txt
 |   
 +---bytenotes (Backend Root)
 |   |   db.sqlite3  # Database file
 |   |   manage.py   # Django project management file
+|   |   requirements.txt
 |   |   
 |   +---bytenotes (Django Project Settings)
 |   |       asgi.py      # ASGI configuration
@@ -113,7 +113,7 @@ _Add a link or GIF showing the demo of your application._
    ```
 6. Start the backend server:
    ```sh
-   python manage.py runserver
+   python manage.py runserver 8008
    ```
 
 ### 🌐 Frontend (React)
